@@ -60,7 +60,7 @@
         IF sy-subrc EQ 0.
           DATA(lv_key) = <ls_desc_key>-key.
         ENDIF.
-        ls_msg-msgid = '/KSMD/MOC_MESSAGES'.
+        ls_msg-msgid = '/XXX/MOC_MESSAGES'.
         ls_msg-msgno = '007'.
         ls_msg-msgty = 'E'.
         eo_message->add_message(
