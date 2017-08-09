@@ -1,7 +1,7 @@
       DATA: ls_uibb_instance_key          TYPE fpm_s_uibb_instance_key.
 
       ls_uibb_instance_key-component = 'FPM_LIST_UIBB'.
-      ls_uibb_instance_key-config_id = '/MOC/L_ISS_OBJECT_REF'.
+      ls_uibb_instance_key-config_id = '[CONFIG_ID]'.
 
       DATA(lo_fpm) = cl_fpm_factory=>get_instance( ).
 
