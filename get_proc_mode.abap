@@ -8,3 +8,7 @@
       DATA(lv_mode) = lo_fpm->get_uibb_edit_mode(
          is_uibb_instance_key = ls_uibb_instance_key
          iv_window_name       = 'LIST_WINDOW' ).
+         
+      IF lv_mode EQ if_fpm_constants=>gc_edit_mode-read_only.
+      
+      ENDIF.
